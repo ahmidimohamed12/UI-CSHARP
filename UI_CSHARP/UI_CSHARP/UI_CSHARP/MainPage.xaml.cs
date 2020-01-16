@@ -37,7 +37,38 @@ namespace UI_CSHARP
             entr2.HeightRequest = 40;
             entr2.FontAttributes = FontAttributes.Bold;
 
+            btnloggi = new Button();
+            btnloggi.WidthRequest = 150;
+            btnloggi.HeightRequest = 50;
+            btnloggi.Text = "Login";
+            btnloggi.CornerRadius = 20;
+            btnloggi.BorderColor = Color.White;
+            btnloggi.BackgroundColor = Color.Black;
+            btnloggi.TextColor = Color.White;
 
+
+
+            //Add column
+            var col1 = new ColumnDefinition();
+            col1.Width = 100;
+
+            var col2 = new ColumnDefinition();
+            col2.Width = 100;
+
+            var col3 = new ColumnDefinition();
+            col3.Width = 100;
+
+
+            //add row
+
+            var row1 = new RowDefinition();
+            row1.Height = 200;
+
+            var row2 = new RowDefinition();
+            row2.Height = 200;
+
+            var row3 = new RowDefinition();
+            row3.Height = 200;
 
 
 
