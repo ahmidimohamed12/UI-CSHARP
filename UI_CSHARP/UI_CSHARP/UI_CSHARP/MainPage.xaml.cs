@@ -26,20 +26,22 @@ namespace UI_CSHARP
             entr1.Placeholder = "Email";
             entr1.TextColor = Color.Black;
             entr1.WidthRequest = 200;
-            entr1.HeightRequest = 40;
+            entr1.HeightRequest = 20;
             entr1.FontAttributes = FontAttributes.Bold;
+
+          
 
             entr2 = new Entry();
             entr2.HorizontalOptions = LayoutOptions.CenterAndExpand;
             entr2.Placeholder = "Password";
             entr2.TextColor = Color.Black;
             entr2.WidthRequest = 200;
-            entr2.HeightRequest = 40;
+            entr2.HeightRequest = 20;
             entr2.FontAttributes = FontAttributes.Bold;
 
             btnloggi = new Button();
             btnloggi.WidthRequest = 150;
-            btnloggi.HeightRequest = 50;
+            btnloggi.HeightRequest = 20;
             btnloggi.Text = "Login";
             btnloggi.CornerRadius = 20;
             btnloggi.BorderColor = Color.White;
@@ -48,38 +50,19 @@ namespace UI_CSHARP
 
 
 
-            //Add column
-            var col1 = new ColumnDefinition();
-            col1.Width = 100;
-
-
-            //add row
-
-            var row1 = new RowDefinition();
-            row1.Height = 200;
-
-            var row2 = new RowDefinition();
-            row2.Height = 200;
-
-            var row3 = new RowDefinition();
-            row3.Height = 200;
-
-
-            
-
             //add grid
-            var grid = new Grid();
-            //add  column  for column collections
-            grid.ColumnDefinitions.Add(col1);
-            //add  row  for row collections
-            grid.RowDefinitions.Add(row1);
-            grid.RowDefinitions.Add(row2);
-            grid.RowDefinitions.Add(row3);
+            //var grid = new Grid();
+            ////add  column  for column collections
+            //grid.ColumnDefinitions.Add(col1);
+            ////add  row  for row collections
+            //grid.RowDefinitions.Add(row1);
+            //grid.RowDefinitions.Add(row2);
+            //grid.RowDefinitions.Add(row3);
 
-            grid.Children.Add(entr1, 1, 0);
-            grid.Children.Add(entr2,1,0);
-            grid.Children.Add(btnloggi,2,0);
-        
+            //grid.Children.Add(entr1, 0, 1);
+            //grid.Children.Add(entr2,0,1);
+            //grid.Children.Add(btnloggi,0,1);
+
 
             //button1 
             // var btn1 = new Button();
@@ -146,6 +129,36 @@ namespace UI_CSHARP
             {
                 Orientation = StackOrientation.Vertical,
                 Children ={
+                   new Grid
+                   {
+                       ColumnDefinitions = {
+                           new ColumnDefinition
+                                 {
+                               Width = 300,
+                            }
+                       },
+                       RowDefinitions =
+                       {
+                           new RowDefinition
+                           {
+                               Height = 100
+                           },
+                           new RowDefinition
+                           {
+                               Height = 100
+                           },
+                            new RowDefinition
+                            {
+                                Height = 100
+                            }
+                       },
+                       Children =
+                       {
+                           btnloggi,
+
+                       }
+                       
+                   }
                 }
             };
 
