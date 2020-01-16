@@ -1,0 +1,13 @@
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\bin\Debug\netstandard2.0\UI_CSHARP.deps.json
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\bin\Debug\netstandard2.0\UI_CSHARP.dll
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\bin\Debug\netstandard2.0\ref\UI_CSHARP.dll
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\bin\Debug\netstandard2.0\UI_CSHARP.pdb
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\UI_CSHARP.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\UI_CSHARP.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\UI_CSHARP.AssemblyInfo.cs
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\UI_CSHARP.dll
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\ref\UI_CSHARP.dll
+C:\Users\pc\source\repos\UI_CSHARP\UI_CSHARP\UI_CSHARP\obj\Debug\netstandard2.0\UI_CSHARP.pdb
