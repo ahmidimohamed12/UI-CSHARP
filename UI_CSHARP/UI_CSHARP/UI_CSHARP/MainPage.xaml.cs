@@ -52,12 +52,6 @@ namespace UI_CSHARP
             var col1 = new ColumnDefinition();
             col1.Width = 100;
 
-            var col2 = new ColumnDefinition();
-            col2.Width = 100;
-
-            var col3 = new ColumnDefinition();
-            col3.Width = 100;
-
 
             //add row
 
@@ -71,6 +65,22 @@ namespace UI_CSHARP
             row3.Height = 200;
 
 
+            
+
+            //add grid
+            var grid = new Grid();
+            //add  column  for column collections
+            grid.ColumnDefinitions.Add(col1);
+            //add  row  for row collections
+            grid.RowDefinitions.Add(row1);
+            grid.RowDefinitions.Add(row2);
+            grid.RowDefinitions.Add(row3);
+
+            grid.Children.Add(entr1, 1, 0);
+            grid.Children.Add(entr2,1,0);
+            grid.Children.Add(btnloggi,2,0);
+        
+            .
 
             //button1 
             // var btn1 = new Button();
