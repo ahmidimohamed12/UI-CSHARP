@@ -80,7 +80,6 @@ namespace UI_CSHARP
             grid.Children.Add(entr2,1,0);
             grid.Children.Add(btnloggi,2,0);
         
-            .
 
             //button1 
             // var btn1 = new Button();
